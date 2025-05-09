@@ -11,7 +11,7 @@ def client():
 def test_home(client):
     resp = client.get('/') # send a get request /
     assert resp.status_code == 200
-    assert resp.text == "<h1>Loan Approval Application V2!</h1>"
+    assert resp.text == "<h1>Loan Approval Application !!!!</h1>"
 
 def test_predict(client):
     test_data= {
