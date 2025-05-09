@@ -1,5 +1,5 @@
 import pytest
-from loans_app import app
+from loan_app import app
 
 
 # client -> simulate a live server.
